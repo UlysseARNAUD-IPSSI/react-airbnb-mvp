@@ -1,0 +1,19 @@
+:root {
+    --dark: #0B0C10;
+    --secondary-dark: #1F2833;
+    --light: #ececec;
+    --secondary-light: #C5C6C7;
+    --cyan: #66FCF1;
+    --dark-cyan: #45A29E;
+}
+
+#root {
+    background: var(--dark);
+    color: var(--light);
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    /*height: 100%;*/
+}
