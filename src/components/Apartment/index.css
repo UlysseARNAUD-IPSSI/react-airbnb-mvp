@@ -1,6 +1,15 @@
 .apartment {
-
     background: rgba(255,255,255,.25);
     border-radius: .35rem;
 
+    overflow: hidden;
+
+    cursor: pointer;
+
+    transition: 300ms border ease-in-out;
+}
+
+.apartment:hover {
+    border: 3px solid var(--cyan);
+    margin-bottom: -6px;
 }

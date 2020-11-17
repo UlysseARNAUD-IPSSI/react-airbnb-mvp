@@ -3,7 +3,7 @@ import './index.css';
 
 function ApartmentCover() {
     return (
-        <div className="apartment-cover">Couverture de l'apartment</div>
+        <div className="apartment-cover"></div>
     )
 }
 
