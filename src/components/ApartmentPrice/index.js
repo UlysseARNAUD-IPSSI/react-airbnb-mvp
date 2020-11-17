@@ -3,7 +3,7 @@ import './index.css';
 
 function ApartmentPrice() {
     return (
-        <div className="apartment-price">Prix de l'apartment</div>
+        <div className="apartment-price"></div>
     )
 }
 

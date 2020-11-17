@@ -1,3 +1,12 @@
 .apartment-price {
     padding: .15rem .5rem .5rem;
 }
+
+.apartment-price:empty {
+    padding: 0;
+    margin: .75rem .5rem;
+    background: rgba(255,255,255,.65);
+    height: .75rem;
+    width: 10ch;
+    display: block;
+}

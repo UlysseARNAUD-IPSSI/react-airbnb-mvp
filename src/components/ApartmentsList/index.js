@@ -3,6 +3,8 @@ import styles from './index.css';
 
 import Apartment from "../Apartment";
 
+
+
 function ApartmentsList() {
     return (
         <section className="apartments-list">

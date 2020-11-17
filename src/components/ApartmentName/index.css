@@ -2,3 +2,12 @@
     padding: .75rem .5rem;
     font-weight: 700;
 }
+
+.apartment-name:empty {
+    padding: 0;
+    margin: .75rem .5rem;
+    background: rgba(255,255,255,.65);
+    height: .95rem;
+    width: 18ch;
+    display: block;
+}
