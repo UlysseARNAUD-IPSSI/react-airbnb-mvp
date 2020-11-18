@@ -2,8 +2,18 @@
 import './index.css';
 
 function ApartmentName(props) {
+    const {name, isAvailable} = props
+
+    const style = {
+        color: "true" === isAvailable ? 'green' : 'red'
+    }
+
+    const labelIsAvailable = (
+        <span style={style}>⬤&nbsp;</span>
+    )
+
     return (
-        <div className="apartment-name">{props.name}</div>
+        <div className="apartment-name">{!!name ? labelIsAvailable : null}{name}</div>
     )
 }
 

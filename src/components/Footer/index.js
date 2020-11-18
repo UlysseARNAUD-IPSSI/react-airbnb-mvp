@@ -4,7 +4,7 @@ import './index.css';
 function Footer() {
     return (
         <footer className="footer">
-            Ceci est un footer
+            Fait par Ulysse ARNAUD avec ReactJS
         </footer>
     );
 }
