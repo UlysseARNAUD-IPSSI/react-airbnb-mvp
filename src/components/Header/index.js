@@ -4,7 +4,7 @@ import styles from './index.css';
 function Header() {
     return (
         <header className="header">
-            Ceci est un header
+            Airbnb MVP
         </header>
     );
 }

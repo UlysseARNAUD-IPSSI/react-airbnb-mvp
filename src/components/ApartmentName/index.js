@@ -1,9 +1,9 @@
 // import logo from '../../assets/logo.svg';
 import './index.css';
 
-function ApartmentName() {
+function ApartmentName(props) {
     return (
-        <div className="apartment-name"></div>
+        <div className="apartment-name">{props.name}</div>
     )
 }
 

@@ -1,0 +1,21 @@
+
+.apartments-search-bar_visibility {
+    width: 10rem;
+}
+
+.apartments-search-bar_visibility > button {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.apartments-search-bar_visibility > input[type="checkbox"] {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .apartments-search-bar_visibility {
+        max-width: 16rem;
+        height: 2rem;
+    }
+}
