@@ -37,6 +37,5 @@
 
 .apartment:not(.is-loading):hover {
     border: 3px solid var(--cyan);
-    margin-top: -3px;
-    margin-bottom: -3px;
+    transform: translateY(0)
 }

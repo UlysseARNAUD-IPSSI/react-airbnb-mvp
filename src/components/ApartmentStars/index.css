@@ -1,5 +1,19 @@
+
 .apartment-stars {
+    --percent: calc(var(--rating) / 100 * 100%);
+
     padding: .15rem .5rem .5rem;
+    overflow: hidden;
+
+    font-size: 2.1675rem;
+    font-family: Times;
+    line-height: 1;
+
+    width: 10rem;
+
+    background: linear-gradient(90deg, #fc0 var(--percent), #ffffffaa var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .apartment-stars:empty {
