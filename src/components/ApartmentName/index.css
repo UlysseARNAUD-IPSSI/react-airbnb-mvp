@@ -1,6 +1,9 @@
 .apartment-name {
     padding: .75rem .5rem;
     font-weight: 700;
+    width: 97%;
+    height: 5rem;
+    overflow: hidden;
 }
 
 .apartment-name:empty {
