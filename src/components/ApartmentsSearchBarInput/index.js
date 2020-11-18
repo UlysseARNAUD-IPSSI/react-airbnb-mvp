@@ -31,7 +31,7 @@ class ApartmentsSearchBarInput extends React.Component {
             <div className="apartments-search-bar_input">
                 <input
                     type="text" placeholder="Search"
-                    onInput={this.handleChange}/>
+                    onChange={this.handleChange}/>
                 <span>Found {apartmentsSearched.length} out of {apartments.length}</span>
             </div>
         )

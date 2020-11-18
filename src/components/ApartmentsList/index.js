@@ -1,5 +1,5 @@
 // import logo from '../../assets/logo.svg';
-import styles from './index.css';
+import './index.css';
 
 import Apartment from "../Apartment";
 

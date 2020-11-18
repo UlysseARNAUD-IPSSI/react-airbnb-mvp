@@ -100,7 +100,7 @@ class Apartments extends React.Component {
                     return "true" === apartment.isAvailable
                 })
         } else {
-            console.log('bar')
+            console.log('bar', {visibility})
             apartmentsSearched = apartments.filter(function (apartment) {
                 return (_removeAccent(apartment.name.trim()).toLowerCase()).includes(_removeAccent(searchQuery).toLowerCase())
                     && (
