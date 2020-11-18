@@ -3,24 +3,35 @@
     "name": "Appartement",
     "cover": "https://picsum.photos/1280/690",
     "price": "12000",
-    "rank": "50"
+    "rank": "50",
+    "isAvailable": "true"
   },
   {
-    "name": "Appartement",
-    "cover": "https://picsum.photos/1280/690",
-    "price": "12000",
-    "rank": "50"
+    "name": "appartement paille",
+    "cover": "https://a0.muscache.com/im/pictures/72d63388-f64c-481e-9221-ad5d2843ea34.jpg?im_w=720",
+    "price": "656",
+    "rank": "50",
+    "isAvailable": "false"
   },
   {
-    "name": "Appartement",
-    "cover": "https://picsum.photos/1280/690",
-    "price": "12000",
-    "rank": "50"
+    "name": "Proche Mer/Nîmes/Montpellier/Royal \uD83D\uDC36/Eminenc/Yooz",
+    "cover": "https://a0.muscache.com/im/pictures/89e59099-5cc5-41f9-9781-8c27356646c0.jpg?im_w=720",
+    "price": "595",
+    "rank": "50",
+    "isAvailable": "true"
   },
   {
-    "name": "Appartement",
-    "cover": "https://picsum.photos/1280/690",
-    "price": "12000",
-    "rank": "50"
+    "name": "Chambre indépendante dans villa avec Sdb & Wc\n",
+    "cover": "https://a0.muscache.com/im/pictures/1749abf4-d4cd-4bbf-ba2c-163e5c6cd3df.jpg?im_w=720",
+    "price": "495",
+    "rank": "50",
+    "isAvailable": "false"
+  },
+  {
+    "name": "#Université,UPVIII.15' plage/centre.Tram1y2-wifi:)\n",
+    "cover": "https://a0.muscache.com/im/pictures/33025467-81ce-4d16-a29c-f086e96df1ad.jpg?im_w=720",
+    "price": "450",
+    "rank": "50",
+    "isAvailable": "false"
   }
 ]
